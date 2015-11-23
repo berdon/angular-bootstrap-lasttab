@@ -5,6 +5,7 @@ Abstracts persisting and reselecting the last active tab with Bootstrap tabs.
 ### Install with bower
 ```
 bower install angular-bootstrap-lasttab
+```
 
 ### Add as angular dependency
 ```
