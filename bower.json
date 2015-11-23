@@ -14,7 +14,6 @@
   ],
   "dependencies": {
     "angular": "angularjs#~1.4.8",
-    "angular-bootstrap-lasttab": "https://github.com/berdon/angular-bootstrap-lasttab.git",
     "jquery": "~2.1.4"
   },
   "ignore": [
