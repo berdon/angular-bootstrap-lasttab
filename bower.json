@@ -1,0 +1,25 @@
+{
+  "name": "angular-bootstrap-lasttab",
+  "version": "1.0.0",
+  "homepage": "https://github.com/berdon/angular-bootstrap-lasttab",
+  "authors": [
+    "Austin Hanson <berdon@gmail.com>"
+  ],
+  "description": "Abstracts persisting and reselecting the last active tab with Bootstrap tabs.",
+  "main": "angular-bootstrap-lasttab.js",
+  "keywords": [
+    "angular",
+    "bootstrap",
+    "tabs"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
