@@ -16,11 +16,13 @@ angular.module('angular-bootstrap-lasttab', [ ]).
 		    }
 		}
 
-		this.$get = function($rootScope) {
+		this.$get = function($rootScope, $timeout) {
 			$rootScope.$on('$viewContentLoaded', setupTabs);
 
 			return {
-				init: setupTabs
+				init: function() {
+					$timeout(setupTabs);
+				}
 			};
 		};
 	});
